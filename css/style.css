@@ -471,6 +471,37 @@ header {
     text-decoration: underline;
 }
 
+/* footertop */
+
+.footertop {
+    background: rgb(255, 255, 255);
+    color: var(--clr-accent);
+    text-align: center;
+    padding: 0em 0;
+    font-size: var(--fs-h3);
+}
+
+.footertop a {
+    color: inherit;
+    text-decoration: none;    
+}
+
+.footertop__link {
+    
+    font-weight: var(--fw-bold);
+}
+
+.footertop__link:hover,
+.social-list__link:hover {
+    opacity: .7;
+}
+
+.footertop__link:hover {
+    text-decoration: underline;
+}
+
+/* social */
+
 .social-list {
     list-style: none;
     display: flex;
